@@ -1,0 +1,21 @@
+{{ define "index" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=i, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Авторизация</title>
+  </head>
+<!--<body class="text-center">
+<main class="form-signin w-100 m-auto"></main>-->
+<main role="main" class="inner cover">
+    <h1 class="cover-heading">Авторизация</h1>
+      <form action="/save_arcticle" method="post"> 
+      <input type="text" name="log" id="floatingInput" placeholder="Введите логин" class="form-control"><br>
+      <input type="text" name="pass" id="floatingPassword" placeholder="Введите пароль" class="form-control"><br>
+      <button class="btn btn-warning">Войти</button>
+  </form>
+</main>
+</html>
+{{ end }}
